@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0px;
+  margin-top: 0px;
+  background-color:grey;
+}
+
+h1 {
+  margin-bottom: 20px;
+  padding-left: 200px;
+  width:fit-content;
+  text-decoration:underline;
+  text-shadow: 2px 1px 5px white;
+  color:#141314;
+  text-decoration-line: underline;
+  text-size-adjust:10%;
+  border-radius:10px ;
+  text-decoration-color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans;
+  text-align: center;
+
+}
+
+form {
+  margin-bottom: 20px;
+  padding-left: 10px;
+  width:50%;
+  color: white;
+  text-shadow: 2px 2px 4px #e10da1;
+  font-weight:bold;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  padding-left: 10px;
+
+}
+
+textarea, input[type="text"]
+{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+input[type="submit"] 
+{
+  padding: 10px 20px;
+  background-color:#66BFBF;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 13px;
+}
+
+#detailsContainer 
+{
+  margin-top: 50px;
+}
+
+#detailsContainer h1 
+{
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#detailsContainer h2 
+{
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+#detailsContainer p 
+{
+  margin-bottom: 10px;
+}
+
+#detailsContainer img 
+{
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+.banner{
+  width:100%;
+  height:100vh;
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://www.bloggingwp.com/wp-content/uploads/2020/04/ac85c8219132e653f839b8d200e11339.jpeg);
+  background-size:cover;
+  background-position:center ;
+}
+.hello:hover{
+  background-color:rgb(66, 149, 209);
+}
